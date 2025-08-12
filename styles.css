@@ -1,0 +1,41 @@
+/* assets/styles.css */
+.count-display {
+    font-size: 2.5rem;
+    font-weight: bold;
+    display: block;
+}
+
+.count-label {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
+
+.count-container {
+    text-align: center;
+    padding: 1rem;
+    border-radius: 0.25rem;
+}
+
+.critical {
+    color: #dc3545;
+}
+
+.warning {
+    color: #ffc107;
+}
+
+.info {
+    color: #17a2b8;
+}
+
+.ag-theme-alpine-dark {
+    --ag-grid-size: 5px;
+    --ag-list-item-height: 30px;
+    --ag-font-size: 14px;
+    --ag-font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.action-btn {
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
